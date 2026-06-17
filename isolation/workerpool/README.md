@@ -211,10 +211,6 @@ The worker pool hot path is allocation-free.
 go tool pprof cpu.prof
 ```
 
-## CPU Flame Graph
-
-![CPU Flame Graph](C:\Users\HP\Desktop\Infra-patterns-flame-graphs/workerpool-optimised.png)
-
 ## Observation
 
 Most CPU time is spent in:
